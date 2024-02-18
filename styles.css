@@ -8,18 +8,21 @@ body {
     background-color: #ffffff;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23e7d6a7' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-}
+
+
 header {
     background-color:floralwhite;
     color:black;
     padding: 40px;
     border-bottom: 2px solid #333;
 }
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+}
 h1 {
-    width: 50%;
+    width: 70%;
     height: 20px;
     display: flex;
     justify-content:flex-start;
@@ -30,50 +33,51 @@ nav {
 }
 nav a {
     color:black;
-    margin: 0 10px;
+    margin: 0 5px;
     text-decoration: none;
     font-weight: bold;
 }
-main {
-    width: 55%;
-}
 .main-content {
-    margin: 20px auto;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 10px auto;
+    padding: 20px 20px;
+    flex: 2;
+    width: 900px;
     background-color: #ffffff;
 }
+
 .sidebar {
-    width: 40%;
-    display: flex;
     background-color:#ffffff;
-    padding: 20px 20px;
+    padding: 0 20px;
+    width: 200px;
+    margin: 10px auto;
+    flex: 1;
 }
-.heading {
-    display:flex;
-    flex-wrap: wrap;
-}
+
 .links{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 0 30px;
 }
+
 .icons {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding: 10px 10px;
 }
+
 p {
     margin: 10px 0;
 }
+
 .headshot {
     float: left;
     border-radius: 50%;
     padding-top: 10px;
     margin: 0 20px 20px 0;
 }
+
 footer {
     text-align: center;
     padding: 10px 0;
